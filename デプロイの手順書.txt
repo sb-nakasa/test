@@ -1,0 +1,26 @@
+
+■リリース環境
+・stout01,polaris01,polaris02,polaris03,polaris04
+
+■リリース手順書
+1./home/signal/deployに移動する。
+2.gitのプルとコード反映のためgitpull.shを実行する。
+管理画面のコード反映は完了です。
+
+■リリース環境
+・stout_batch
+
+■リリース手順書
+1.signalユーザーで cd /home/signal/deploy_batchに移動する。
+2.gitプルのためsh clone-build.shを実行する。
+3.cd /home/switchに移動する。
+4.コード反映のためsh deploy_stout-batch.shを実行する。
+バッチのコード反映は完了です。
+
+
+
+
+
+
+
+
